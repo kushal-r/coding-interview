@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 # coding-interview
-=======
 **Combinatorics (From n choose k) & Probability**
 
 [Combinatorics(Factorial/Permute/Choose)](https://www.youtube.com/watch?v=8RRo6Ti9d0U&ab_channel=SpoonfulofMaths)
@@ -24,6 +22,3 @@ So, to re-arrange r objects we have r! ways<br/>
 Finally, removing the ordering information we have to discard r! ways from the re-arrangement<br/>
 `nPr/r! = n!/(n-r)!*r!` = nCr ways.
 
-
-
->>>>>>> Initial commit
