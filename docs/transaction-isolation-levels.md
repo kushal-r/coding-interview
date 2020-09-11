@@ -6,7 +6,7 @@ Transaction isolation levels are a measure to which transaction isolation succee
 
 **Non repeatable Reads:** A *non repeatable read* occurs when a transaction reads the same row twice and gets different results each time. For example transaction 1 reads a row from the database, transaction 2 updates/deletes the row and commits the update/delete. Transaction 1 tries to re-read the same row, it gets updated row or fids that the row has been deleted.
 
-**Phantoms:** A *phantom* is a row that matches some search criteria which is not initially discovered. For example suppose transaction 1 executes a query which returns a set of rows. Transaction 2 inserts/updates a row that matches the search criteria of transaction 1. If transaction 1 re-executes the same query itt gets a different set of rows.
+**Phantoms:** A *phantom* is a row that matches some search criteria which is not initially discovered. For example suppose transaction 1 executes a query which returns a set of rows. Transaction 2 inserts/updates a row that matches the search criteria of transaction 1. If transaction 1 re-executes the same query it gets a different set of rows.
 
 
 Four transaction isolation levels based on this above criteria are as follows:
@@ -19,7 +19,7 @@ Repeatable read	|--|--|X
 Serializable|--|--|--
 
 
-Syntax for SQL Server
+Syntax:
   
 `SET TRANSACTION ISOLATION LEVEL
     { READ UNCOMMITTED
@@ -27,7 +27,10 @@ Syntax for SQL Server
     | REPEATABLE READ
     | SNAPSHOT
     | SERIALIZABLE
-    }`
+    } 
+    BEGIN TRANSACTION
+    {--SQL--}
+    COMMIT TRANSACTION`
  
 Transaction isolation | Implementation | Uses
 ---|---|---
