@@ -77,7 +77,7 @@ package string;
  * Case 2). If \text{result} > \frac{\text{INT\_MAX}}{10}result>
  * 10
  * INT_MAX
- * ​
+ * <p>
  * , we are sure that adding next number would result in integer overflow.
  * This holds for negative integer as well. In the 32-bit integer, \text{INT\_MIN}INT_MIN value is
  * -2147483648 (-2^{31})−2147483648(−2
