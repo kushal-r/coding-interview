@@ -1,4 +1,4 @@
-###Combinatorics (From n choose k) & Probability
+# Combinatorics (From n choose k) & Probability
 
 [Combinatorics(Factorial/Permute/Choose)](https://www.youtube.com/watch?v=8RRo6Ti9d0U&ab_channel=SpoonfulofMaths)
 <br/>
