@@ -1,7 +1,5 @@
 # ACID
 
-Ref. [Designing Data Intensive Applications](books/Designing Data Intensive Applications.pdf)
-
 A transaction is a collection of instructions. To maintain the integrity of the database, all transactions must follow ACID properties.
 
 *ACID* - **A**tomicity, **C**onsistency, **I**solation, **D**urability.
