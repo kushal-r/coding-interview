@@ -12,7 +12,7 @@ The main goal of the SOLID principles is to build a software that can:
 #### SOLID
 
 ---
-**S**RP - **Single Responsibility** states that a class should have only one reason to change.
+**S**RP - **Single Responsibility Principle** states that a class should have only one reason to change.
 Like functions should be responsible for one and only responsibility. SRP says that the class should 
 interact only with one and only actor using that particular class.<br/>
 Example: Employee class has three methods calculatePay(), reportHours(), and save()
