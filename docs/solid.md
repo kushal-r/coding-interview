@@ -42,6 +42,7 @@ Keeping the changes minimal we add the newer functionality, using IoC.
 ---
 **L**SP - **Liskov's Substitution Principle**  The principle states that derived classes can substitute the 
 parent or base class. LSP is a guide to use object inheritance.
+
 ---
 **I**SP - **Interface Segregation Principle** states that the system should never enforce users to implement interfaces that 
 are not relevant to him.<br/>
@@ -49,6 +50,7 @@ Example: Say we have a class OPS with methods [op1,op2,op3], suppose User1 -> op
 OPS class op2 function implementation changes, and hence the User1 has also have to be compiled and re deployed
 as User1 is inadvertently dependent on op2.
 This can be easily solved by using splitting the OPS methods into multiple interfaces. And let User1, User2 implement individual interfaces.
+
 ---
 **D**IP - **Dependency Inversion Principle** tells us that most flexible systems are those in which 
 source code dependencies refer only to abstractions rather than implementations.
