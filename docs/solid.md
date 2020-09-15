@@ -1,6 +1,6 @@
 # SOLID Design Principles
 
-SOLID design principles tell us how to arrange our data structures and functions
+>SOLID design principles tell us how to arrange our data structures and functions
 into classes, and how those classes should be interconnected. Any collection of
 functions and data can be classified as a class.
 
