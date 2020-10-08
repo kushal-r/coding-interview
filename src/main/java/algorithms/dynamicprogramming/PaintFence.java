@@ -73,18 +73,24 @@ public class PaintFence {
     //Case : First 2 posts have diff. colour
     int diffColour = k * (k - 1);
 
+    // Total ways to colour 2 posts = sameColour + diffColour
+
     for (int i = 3; i <= n; i++) {
       int tmp = diffColour;
 
       /*
        * Current Case: To every samecolor and diffcolor we can add a new post with different color as the last one. We have k-1 color
        * options for the last one.
+       *
+       * Ways to colour this post with diff colour= Total ways to colour prev post [sameColour + diffColour] * (k-1) remaining colours
        */
       diffColour = (sameColour + diffColour) * (k - 1);
 
       /*
        * To every diffCase we can add a new post with the same color as the last one to not generate violation - no
        * more than 2 adjacent fence posts have the same color.
+       *
+       * Ways to colour this post with same colour = sameColour + diffColour
        */
       sameColour = tmp;
 
