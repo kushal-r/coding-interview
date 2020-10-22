@@ -11,15 +11,15 @@ import java.util.Arrays;
  * Here are some examples. Inputs are in the left-hand column and its corresponding outputs are in
  * the right-hand column.
  * <p>
- * 1,2,3 → 1,3,2
- * 3,2,1 → 1,2,3
- * 1,1,5 → 1,5,1
+ * 1,2,3 -> 1,3,2
+ * 3,2,1 -> 1,2,3
+ * 1,1,5 -> 1,5,1
  * <p>
  * Algorithm:
- * We need to find the first pair of two successive numbers a[i]a[i] and a[i-1]a[i−1], from the
- * right, which satisfy a[i] > a[i-1]a[i]>a[i−1]. Now, no rearrangements to the right of
- * a[i-1]a[i−1] can create a larger permutation since that subarray consists of numbers in
- * descending order. Thus, we need to rearrange the numbers to the right of a[i-1]a[i−1] including
+ * We need to find the first pair of two successive numbers a[i]a[i] and a[i-1]a[i-1], from the
+ * right, which satisfy a[i] > a[i-1]a[i]>a[i-1]. Now, no rearrangements to the right of
+ * a[i-1]a[i-1] can create a larger permutation since that subarray consists of numbers in
+ * descending order. Thus, we need to rearrange the numbers to the right of a[i-1]a[i-1] including
  * itself.
  * <p>
  * Now, what kind of rearrangement will produce the next larger number? We want to create the
