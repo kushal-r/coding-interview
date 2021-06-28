@@ -1,4 +1,5 @@
-Data Structures and Algorithms  
+Data Structures and Algorithms
+
 [Big-O](https://www.bigocheatsheet.com/)  
 [Recursion Trees](http://www.cs.cornell.edu/courses/cs3110/2012sp/lectures/lec20-master/lec20.html)  
 [Design and Analysis of Algorithms](http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=IntroToAlgorithms)  
@@ -11,7 +12,8 @@ Data Structures and Algorithms
 [DYNAMIC PROGRAMMING: FROM NOVICE TO ADVANCED](https://www.topcoder.com/thrive/articles/Dynamic%20Programming:%20From%20Novice%20to%20Advanced)  
 [Longest Common Subsequences](https://www.ics.uci.edu/~eppstein/161/960229.html)
 ---
-System Design  
+System Design
+
 [System Design for Tech Interviews](https://www.hiredintech.com/courses/system-design)  
 [The Architecture of Open Source Applications](http://aosabook.org/en/index.html)  
 [Scaling Databases](https://www.youtube.com/watch?v=dkhOZOmV7Fo)  
@@ -21,10 +23,10 @@ System Design
 [System Design Interview Questions](http://blog.gainlo.co/index.php/category/system-design-interview-questions/)  
 [Scalable Web Architectures](https://www.slideshare.net/iamcal/scalable-web-architectures-common-patterns-and-approaches-web-20-expo-nyc-presentation)  
 [Scalability Harvard Web Development David Malan](https://www.youtube.com/watch?v=-W9F__D3oY4&list=PL_ODyL-jNdIAbwqJ-_hcrpgqsbeF1dLgt)  
-[Rate limiting Spring MVC](https://golb.hplar.ch/2019/08/rate-limit-bucket4j.html)  
-[]()
+[Rate limiting Spring MVC](https://golb.hplar.ch/2019/08/rate-limit-bucket4j.html)
 ---
-Design Patterns  
+Design Patterns
+
 [Dependency Inversion](https://martinfowler.com/articles/dipInTheWild.html#YouMeanDependencyInversionRight)
 [Covariance and contravariance in generics](https://docs.microsoft.com/en-us/dotnet/standard/generics/covariance-and-contravariance)  
 [Covariance and Contravariance in Java](https://medium.com/@yuhuan/covariance-and-contravariance-in-java-6d9bfb7f6b8e)  
@@ -37,20 +39,23 @@ Design Patterns
 [composition and aggregation](https://javarevisited.blogspot.com/2014/02/ifference-between-association-vs-composition-vs-aggregation.html#axzz6z4IXqbJj)  
 [Design Patterns Cloud hosted services](https://docs.microsoft.com/en-us/previous-versions/msp-n-p/dn600223%28v=pandp.10%29)
 ---
-Java  
+Java
+
 [Java class loaders](https://www.infoworld.com/article/2077260/learn-java-the-basics-of-java-class-loaders.html)  
 [Literal string creation vs String object creation](https://stackoverflow.com/questions/8316687/literal-string-creation-vs-string-object-creation)  
 [Strings](https://javaranch.com/journal/200409/ScjpTipLine-StringsLiterally.html)  
 [Concurrent Collections](https://www.logicbig.com/tutorials/core-java-tutorial/java-collections/concurrent-collection-cheatsheet.html)  
 [Threads and Locks](https://docs.oracle.com/javase/specs/jls/se8/html/jls-17.html)
 ---
-Spring  
+Spring
+
 [map a projection query to a DTO](https://vladmihalcea.com/the-best-way-to-map-a-projection-query-to-a-dto-with-jpa-and-hibernate/)  
 [HTTP Status Code](https://www.codetinkerer.com/2015/12/04/choosing-an-http-status-code.html)  
 [Spring REST Service Exception Handling](https://dzone.com/articles/spring-rest-service-exception-handling-1)  
 [Result Set Mapping](https://thorben-janssen.com/result-set-mapping-constructor-result-mappings/)
 ---
-Before Interview  
+Before Interview
+
 [ 24 Hours Before Your Interview](https://www.interviewcake.com/24-hours-before-onsite-whiteboard-coding-interview)  
 [Coding Interview Meditation](https://www.interviewcake.com/coding-interview-meditation)  
 [Interviewing at Amazon — Leadership Principles](https://www.scarletink.com/interviewing-at-amazon-leadership-principles/)  
@@ -59,7 +64,8 @@ Before Interview
 [Why I studied full-time for 8 months for a Google interview](https://www.freecodecamp.org/news/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13/)  
 [coding-interview-university](https://github.com/jwasham/coding-interview-university#how-to-use-it)
 ---
-Resume  
+Resume
+
 [Latex](http://ctan.imsc.res.in/info/lshort/english/lshort.pdf)   
 
 
