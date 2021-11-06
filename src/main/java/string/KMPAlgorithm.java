@@ -38,6 +38,7 @@ public class KMPAlgorithm {
           //Move the idx in pattern to the value of last seen char
           j = pi[j - 1];
         }
+
       }
     }
 
